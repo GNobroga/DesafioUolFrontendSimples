@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app {
+  display: flex;
+  gap: 1rem;
+}
+
+.table-action {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.table-action > button {
+  cursor: pointer;
+}
+
+table {
+  min-width: 800px;
+}
+
+table th {
+  background-color: #333;
+  color: #fff;
+}
+
+td {
+  padding: 0.5rem;
+  background-color: #eee;
+}
+
+form {
+  border: 3px solid #333;
+  max-width: 600px;
+  width: 100%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+
+form > input[type=text] {
+  height: 35px;
+  padding-left: 0.5rem;
+}
+
+form > .actions {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+form > .actions > button {
+  flex: 1;
+  padding: 1rem;
+  background-color: #666666;
+  color: #fff;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+form > .actions > button:hover {
+  background-color: #66666677;
+}
+
+form .radioGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 1.1rem;
+}
